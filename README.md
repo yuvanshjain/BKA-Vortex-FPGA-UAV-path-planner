@@ -20,7 +20,9 @@ Features a Jupyter Notebook interface running on the Zynq Processing System (PS)
 * **Click and drag** to dynamically add custom obstacles and set their radius.
 * **Press `Backspace`** to instantly undo/remove the last added obstacle.
 * **Press `c`** to clear the entire map.
-* **Press `Enter`** to trigger the hardware execution via AXI-Lite and generate the optimal flight trajectory. 
+* **Press `Enter`** to trigger the hardware execution via AXI-Lite and generate the optimal flight trajectory.
+  <img width="911" height="812" alt="image" src="https://github.com/user-attachments/assets/3244a55a-c18d-4abb-be77-89dbbfcf381b" />
+
 
 ## 🛠️ Tech Stack & VLSI Tools
 * **Hardware Synthesis:** C++, Xilinx Vivado HLS
@@ -38,6 +40,7 @@ Features a Jupyter Notebook interface running on the Zynq Processing System (PS)
 2. Ensure `imbkathree.bit` and `imbkathree.hwh` are located in the same directory as your execution script.
 3. Open the Python script or Jupyter Notebook and run the UI block.
 4. Interact with the matplotlib map to build your environment and press **Enter** to run the hardware accelerator.
+
 
 ### 📊 Data Extraction
 The hardware engine saves the exact mathematical trajectory calculated during the run. If you need to access the raw data for external plotting, verification, or analysis, simply create a new cell below the UI and run:
